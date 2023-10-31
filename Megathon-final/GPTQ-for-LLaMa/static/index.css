@@ -1,0 +1,86 @@
+.submit {
+    background-color: #a2eaa4;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #a0a0a0;
+}
+
+.submit:active {
+    background-color: #686868;
+}
+
+.input {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.chat-msg {
+    max-width: 100%;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.time-right {
+    float: right;
+    color: #8c8c8c;
+}
+
+.time-left {
+    float: left;
+    color: #6a6a6a;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e5e6eb;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bbb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
